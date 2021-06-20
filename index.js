@@ -34,6 +34,7 @@ let tardigrade = {
 };
 
 
+
 // After you have created the other object literals, add the astronautID property to each one.
 
 // Create an array to hold the animal objects.
