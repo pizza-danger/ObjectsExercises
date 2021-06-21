@@ -4,7 +4,7 @@ let superChimpOne = {
     mass: 9,
     age: 6
 };
-//
+//salamander was formatted like superChimpOne, but I deleted the space at the beginning of each line. That caused it to be included in the numbering function and to display like the others, in a verticle list as opposed to on a single line. Going to change superChimpOne after this push.
 let salamander = {
   name: "Lacey",
   species: "Axolotl Salamander",
