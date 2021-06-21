@@ -1,8 +1,8 @@
 let superChimpOne = {
-    name: "Chad",
-    species: "Chimpanzee",
-    mass: 9,
-    age: 6
+  name: "Chad",
+  species: "Chimpanzee",
+  mass: 9,
+  age: 6
 };
 //salamander was formatted like superChimpOne, but I deleted the space at the beginning of each line. That caused it to be included in the numbering function and to display like the others, in a verticle list as opposed to on a single line. Going to change superChimpOne after this push.
 let salamander = {
@@ -40,7 +40,7 @@ for (let i = 1; i < astronautAnimals.length; i++) {
   idIndex += 1;
   astronautAnimals[i].astronautID = idIndex;
 }
-console.log(salamander);
+
 // superChimpOne["astronautID"] = Math.round(Math.random()*10);
 // salamander["astronautID"] = Math.round(Math.random()*10);
 // chimpanzeeTwo["astronautID"] = Math.round(Math.random()*10);
@@ -57,3 +57,7 @@ console.log(salamander);
 // Print out the relevant information about each animal.
 
 // Start an animal race!
+for (let i = 0; i < astronautAnimals.length; i++) {
+  astronautAnimals[i].move = Math.floor(Math.random()*11);
+}
+console.log(astronautAnimals);
