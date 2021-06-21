@@ -60,4 +60,12 @@ for (let i = 1; i < astronautAnimals.length; i++) {
 for (let i = 0; i < astronautAnimals.length; i++) {
   astronautAnimals[i].move = Math.floor(Math.random()*11);
 }
-console.log(astronautAnimals);
+
+//console.log(astronautAnimals);
+
+crewReports = function(object) {
+  for (items in object)
+    console.log(`${object.name} is a ${object.species}. They are ${object.age} years old and ${object.mass} kilograms. Their ID is ${object.astronautID}.`);
+}
+
+console.log(crewReports(salamander));
